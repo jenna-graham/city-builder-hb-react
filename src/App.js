@@ -15,7 +15,7 @@ function App() {
   const [waterfrontId, setWaterfrontId] = useState(1);
   const [castleId, setCastleId] = useState(1);
   // you'll need to track a city name, which starts as the city name of your choice.
-  const [cityName, setCityName] = useState('Your City Name');
+  const [cityName, setCityName] = useState('City thats mine!');
   // finally, you'll need an array of slogans, which could start out as ['The City of Excellence'] for example
   
   const [slogans, setSlogans] = useState(['my city is rad!']);
